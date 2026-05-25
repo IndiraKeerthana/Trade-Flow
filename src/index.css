@@ -53,3 +53,13 @@ code {
   font-size: 12px;
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+    z-index: 1000;
+}
+
+body {
+  padding-top: 70px;
+}
