@@ -2,7 +2,7 @@ import React from 'react';
 
 function Stats() {
     return (
-        <div className="container p-3">
+        <div className="container p-3 mb-5">
             <div className="row p-5">
                 <div className="col-6 p-5">
                     <h1 className = "mb-5 fs-2">Trust with Confidence</h1>
