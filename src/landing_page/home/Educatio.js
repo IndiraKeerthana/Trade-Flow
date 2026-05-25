@@ -8,11 +8,11 @@ function Education() {
         <br />
         <div className="row">
           <div className="col-6">
-            <img src="media/education.svg" style={{ width: '80%' }} />
+            <img src="media/education.svg" style={{ width: '70%' }} />
           </div>
           
           <div className="col-6 mb-5">
-            <h1 className="mb-4 fs-2">Free and open market education</h1>
+            <h1 className="mb-4 fs-3">Free and open market education</h1>
 
             <p className="mt-3">Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
             <a href="" className = "" style = {{textDecoration: "none"}}>Varsity <i class="fa-solid fa-arrow-right-long"></i></a>
