@@ -63,3 +63,7 @@ code {
 body {
   padding-top: 70px;
 }
+
+.about-links a {
+  text-decoration: none;
+}
