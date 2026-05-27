@@ -10,8 +10,8 @@ function LeftSection({
     appStore
 }) {
     return (
-        <div className="container-fluid px-3 px-md-5 my-5">
-            <div className="row align-items-center">
+        <div className="container-fluid px-3 px-md-5 my-4 my-lg-5">
+            <div className="row align-items-center gy-4">
                 {/* Left Image */}
                 <div className="col-12 col-md-7 text-center mb-5 mb-md-0">
                     <img src={imageURL} className="img-fluid" style={{ maxWidth: "90%" }} />
@@ -28,9 +28,9 @@ function LeftSection({
                     }}>{productDescription}</p>
 
                     <div className="mt-4 d-flex gap-4 flex-wrap justify-content-center justify-content-md-start">
-                        <a href={tryDemo} style={{ textDecoration: "none" }}>Try Demo <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href={tryDemo} style={{ textDecoration: "none" }}>Try Demo <i className="fa-solid fa-arrow-right-long"></i></a>
 
-                        <a href={learnMore} style={{ marginLeft: "50px", textDecoration: "none" }} >Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href={learnMore} className="ms-md-4" style={{ textDecoration: "none" }} >Learn More <i className="fa-solid fa-arrow-right-long"></i></a>
                     </div>
 
                     <div className="mt-4 d-flex gap-3 flex-wrap justify-content-center justify-content-md-start">
