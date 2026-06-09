@@ -22,7 +22,7 @@ function RightSection({
                     }}>{productDescription}</p>
 
                     <div className="mt-4 d-flex gap-4 flex-wrap justify-content-center justify-content-md-start">
-                        <a href={learnMore} className="ms-md-4" style={{ textDecoration: "none" }} >Learn More <i className="fa-solid fa-arrow-right-long"></i></a>
+                        <a href={learnMore} className="" style={{ textDecoration: "none" }} >Learn More <i className="fa-solid fa-arrow-right-long"></i></a>
                     </div>
 
                 </div>
