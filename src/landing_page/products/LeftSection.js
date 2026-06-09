@@ -10,15 +10,15 @@ function LeftSection({
     appStore
 }) {
     return (
-        <div className="container-fluid px-3 px-md-5 my-4 my-lg-5">
-            <div className="row align-items-center gy-4">
+        <div className="container my-5">
+            <div className="row align-items-center justify-content-between gy-5">
                 {/* Left Image */}
-                <div className="col-12 col-md-7 text-center mb-5 mb-md-0">
+                <div className="col-12 col-lg-7 text-center mb-5 mb-lg-0">
                     <img src={imageURL} className="img-fluid" style={{ maxWidth: "90%" }} />
                 </div>
 
                 {/* Right Text */}
-                <div className="col-12 col-md-4 text-center text-md-start" style={{ color: "#424242" }}>
+                <div className="col-12 col-lg-5 ps-lg-5 text-center text-lg-start" style={{ color: "#424242" }}>
 
                     <h2 className="fs-4 mb-4" style={{ color: "#424242" }}>{productName}</h2>
 
