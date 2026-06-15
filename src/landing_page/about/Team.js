@@ -3,16 +3,18 @@ import React from 'react';
 function Team() {
     return (
         <div className="container">
-            <div className="row mb-5 mt-4" style={{ color: "#424242" }}>
-                <h2 className="fs-4 mb-5 text-center">People</h2>
+            <div className="row mb-4 mb-lg-5 mt-4" style={{ color: "#424242" }}>
+                <h2 className="fs-4 mb-4 mb-lg-5 text-center">People</h2>
             </div>
 
-            <div className="row text-muted align-items-center" style={{ lineHeight: "1.8", fontSize: "1rem", color: "#424242" }}>
-                <div className="col-5 text-center">
+            <div className="row text-muted align-items-center justify-content-center gy-4" style={{ lineHeight: "1.8", fontSize: "1rem", color: "#424242" }}>
+                <div className="col-12 col-lg-5 text-center mb-4 mb-lg-0">
                     <img src="./media/IndiraKeerthana.jpeg" alt="Indira Keerthana"
+                        className="img-fluid"
                         style={{
                             width: "300px",
-                            height: "300px",
+                            maxWidth: "100%",
+                            aspectRatio: "1 / 1",
                             borderRadius: "50%",
                             objectFit: "cover"
                         }}
@@ -20,7 +22,7 @@ function Team() {
                     <h2 className="fs-5 mt-3">Indira Keerthana</h2>
                     <p>Full-Stack Developer</p>
                 </div>
-                <div className="about-links col-6">
+                <div className="about-links col-12 col-lg-6">
                     <p>
                         Keerthana is an aspiring full-stack developer and engineering student passionate about building modern web applications and real-world fintech projects.
                     </p>

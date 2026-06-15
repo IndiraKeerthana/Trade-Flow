@@ -3,13 +3,13 @@ import React from 'react';
 function Footer() {
     return (
         <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
-            <div className="container border-top p-5 mt-5 mb-5">
+            <div className="container border-top p-3 p-lg-5 mt-5 mb-5">
                 <div className="row">
-                    <div className="col">
-                        <img src="media/TradeFlow_logo.svg" style={{ width: "50%" }} alt="Logo" />
+                    <div className="col-12 col-md-6 col-lg mb-4 mb-lg-0">
+                        <img src="media/TradeFlow_logo.svg" className="img-fluid" style={{ width: "50%", maxWidth: "200px" }} alt="Logo" />
                         <p>© 2010 - 2026, Zerodha Broking Ltd. <br />All rights reserved.</p>
                     </div>
-                    <div className="col footer-links">
+                    <div className="col-12 col-md-6 col-lg footer-links mb-4 mb-lg-0">
                         <p>Company</p>
                         <a href="">About</a><br />
                         <a href="">Philosophy</a><br />
@@ -20,7 +20,7 @@ function Footer() {
                         <a href="">Open source</a><br />
                         <a href="">Referral program</a><br />
                     </div>
-                    <div className="col footer-links">
+                    <div className="col-12 col-md-6 col-lg footer-links mb-4 mb-lg-0">
                         <p>Support</p>
                         <a href="">Contact us</a><br />
                         <a href="">Support portal</a><br />
@@ -31,7 +31,7 @@ function Footer() {
                         <a href="">Z-Connect blog</a><br />
                         <a href="">Downloads</a><br />
                     </div>
-                    <div className="col footer-links">
+                    <div className="col-12 col-md-6 col-lg footer-links">
                         <p>Account</p>
                         <a href="">Open demat account</a><br />
                         <a href="">Minor demat account</a><br />
@@ -63,7 +63,7 @@ function Footer() {
                     <p>Fixed deposit products offered on this platform are third-party products (TPP) and are not Exchange traded products. These are offered through Blostem Fintech Private Limited. Zerodha Broking Limited (SEBI Registration No.: INZ000031633) is acting solely as a distributor for these products. Any disputes arising with respect to such distribution activity will not have access to SEBI SCORES/ODR, Exchange Investor Grievance Redressal Forum, or Arbitration mechanism. Fixed deposits are regulated by the Reserve Bank of India (RBI).</p>
                 </div>
 
-                <div className="d-flex justify-content-center gap-4 mt-4 footer-links bottom-links">
+                <div className="d-flex justify-content-center gap-3 gap-lg-4 mt-4 footer-links bottom-links flex-wrap text-center">
                     <a href="">NSE</a>
                     <a href="">BSE</a>
                     <a href="">MCX</a>

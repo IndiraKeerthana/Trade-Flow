@@ -57,7 +57,11 @@ code {
   position: fixed;
   top: 0;
   width: 100%;
-    z-index: 1000;
+  z-index: 1000;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 body {
@@ -66,4 +70,14 @@ body {
 
 .about-links a {
   text-decoration: none;
+}
+
+@media (max-width: 991.98px) {
+  .nav-link {
+    margin-left: 0;
+  }
+
+  .bottom-links a {
+    padding: 0 6px 8px;
+  }
 }
